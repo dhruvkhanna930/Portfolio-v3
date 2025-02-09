@@ -14,11 +14,11 @@ const Reviews = () => {
         className={`relative mb-16 flex w-full flex-col items-center justify-center gap-10  text-[#e4ded7] sm:items-center lg:max-w-[1440px]`}
       >
         <AnimatedWords2
-          title={"Testimonials"}
+          title={"Experience"}
           style={`flex max-w-[500px] flex-col items-start text-left pr-5 ${monaSans.className} font-extrabold uppercase leading-[0.9em] text-[#e4ded7] sm:max-w-full sm:flex-row sm:items-center sm:justify-center sm:text-center lg:text-center text-[clamp(70px,14vw,155.04px)]`}
         />
         <AnimatedBody
-          text="Real Stories from Clients and Collaborators Who Have Experienced My Work Firsthand"
+          text="The Road So Far: My Experiences, Challenges, and Milestones"
           className="w-[90%] text-center text-[14px] font-semibold uppercase sm:w-[500px] md:w-[550px] md:text-[16px]"
         />
       </div>
@@ -38,7 +38,7 @@ const Reviews = () => {
         })}
       </motion.div>
 
-      <motion.a
+      {/* <motion.a
         initial={{ opacity: 0, y: 20 }}
         whileInView={{
           opacity: 1,
@@ -58,7 +58,7 @@ const Reviews = () => {
         className="mt-10 mb-5 sm:mb-0 sm:mt-20"
       >
         <Image src={hireMe} alt={"hire me"} className="w-full" />
-      </motion.a>
+      </motion.a> */}
 
       {/* <motion.div
         initial={{ opacity: 0, y: 20 }}

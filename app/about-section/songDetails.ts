@@ -7,10 +7,10 @@ export type SongProps = {
 
 export const songs = [
   {
-    title: "Lie Again",
-    artist: "Giveon",
-    image: require(".//../../public/songs/lie-again.jpeg"),
-    link: "https://open.spotify.com/album/11q4Tt1RzwrFzF2Vddc2yO",
+    title: "deja vu",
+    artist: "Olivia Rodrigo",
+    image: require(".//../../public/songs/deja-vu.webp"),
+    link: "https://open.spotify.com/track/6HU7h9RYOaPRFeh0R3UeAr?si=e2a19ee825334ef2",
   },
   {
     title: "Martin's Sofa",

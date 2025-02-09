@@ -37,32 +37,35 @@ const BlogCard = ({
       amount: "some",
       once: true,
     }}
-      className="relative flex h-[473px] w-[100%] flex-col items-start justify-between rounded-[23px] border-[3px] border-[#212531] bg-transparent p-[28px] sm:h-[450px] sm:items-center sm:justify-start lg:h-[393px] lg:max-w-[438px] "
+      className="relative flex h-[473px] w-[100%] flex-col items-start justify-between rounded-[23px] border-[3px] border-[#212531] bg-transparent p-[28px] sm:h-[450px] sm:items-start sm:justify-between lg:h-[393px] lg:max-w-[438px] "
     >
       <Image
         src={slash}
         alt={"title"}
-        className="absolute top-[34px] left-[28px] w-[51px]"
+        className="absolute right-10 w-[51px] bottom-10"
       />
 
-      <p className="mt-10 text-[18px] font-[500] leading-relaxed tracking-wide text-[#e4ded7]">
+      <p className="mt-20 text-[18px] font-[500] leading-relaxed tracking-wide text-[#e4ded7]">
         {testimonial}
       </p>
 
-      <div className="flex gap-3 sm:absolute sm:bottom-[28px] sm:left-[28px]">
+      <div className="flex gap-3 sm:absolute sm:top-[28px] sm:left-[28px] justify-center ">
         <Image
           src={profileImg}
           alt={"title"}
           width={1600}
           height={840}
-          className="h-[41px] w-[41px] rounded-full bg-contain bg-center object-cover grayscale"
+          className="h-[41px] w-[41px] rounded-full bg-contain bg-center object-cover"
         />
         <div className="flex flex-col gap-1 pr-7">
-          <h3 className="w-[176px] text-[23px] font-bold uppercase leading-[20.7px] tracking-[-0.46056px] text-[#e4ded7]">
-            {abbreviateName(name)}
+          <h3 className="w-[176px] text-[18px] font-bold uppercase leading-[20.7px] tracking-[-0.46056px] text-[#e4ded7]">
+            {name}
           </h3>
           <p className="text-sm font-[500] leading-[16px] text-[#95979D]">
-            {role} @ {company}
+            {role}
+          </p>
+          <p className="text-base font-[300] leading-[16px] text-[#95979D]">
+            {company}
           </p>
         </div>
       </div>

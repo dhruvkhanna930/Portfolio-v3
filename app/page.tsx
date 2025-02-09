@@ -41,10 +41,9 @@ export default function Home() {
       {/* <ScrollerMotion> */}
       <main className="flex flex-col items-center justify-center">
         <Hero />
-        {/* <Tech /> */}
-        <Work />
-        <Reviews/>
         <About />
+        <Reviews/>
+        <Work />
         <Blog />
         <Contact />
         <Footer />
