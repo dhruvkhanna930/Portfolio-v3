@@ -6,6 +6,7 @@ import { ScrollerMotion } from "scroller-motion";
 import PreLoader from "./animations/PreLoader/PreLoader";
 import { initialBlobityOptions } from "./utils/BlobityConfig";
 import NavBar from "./navbar/NavBar";
+import Tech from "./tech/Tech";
 
 import dynamic from "next/dynamic";
 import Reviews from "./reviews-section/ReviewGrid";
@@ -41,6 +42,7 @@ export default function Home() {
       {/* <ScrollerMotion> */}
       <main className="flex flex-col items-center justify-center">
         <Hero />
+        {/* <Tech /> */}
         <Work />
         <Reviews/>
         <About />

@@ -11,11 +11,11 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-  title: "Victor Williams — Frontend Engineer",
+  title: "Dhruv Khanna — Software Engineer",
   description:
-    "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+    "Python Developer and Digital Innovator, pursuing CSE from IIIT Gwalior. Focused on digital spaces, working remotely from India.",
   generator: "Next.js",
-  applicationName: "Victor Williams",
+  applicationName: "Dhruv Khanna",
   keywords: [
     "freelance",
     "developer",
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     "creative developer",
     "creative engineer",
     "tech",
-    "nigeria",
+    "india",
     "software",
     "software developer",
     "portfolio",
@@ -37,11 +37,11 @@ export const metadata: Metadata = {
   ],
   colorScheme: "dark",
   openGraph: {
-    title: "Victor Williams — Frontend Engineer",
+    title: "Dhruv Khanna — Software Engineer",
     description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
+      "Python Developer and Digital Innovator, pursuing CSE from IIIT Gwalior. Focused on digital spaces, working remotely from India.",
     url: "https://www.victorwilliams.me/",
-    siteName: "www.victorwilliams.me",
+    // siteName: "www.victorwilliams.me",
     images: [
       {
         url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",

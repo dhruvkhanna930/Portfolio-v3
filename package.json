@@ -16,10 +16,13 @@
     "@tailwindcss/line-clamp": "^0.4.2",
     "@vercel/analytics": "^0.1.11",
     "blobity": "^0.2.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
     "eslint": "8.35.0",
     "eslint-config-next": "13.2.3",
     "framer-motion": "^10.6.1",
     "gsap": "^3.11.5",
+    "lucide-react": "^0.475.0",
     "next": "13.2.3",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
@@ -28,6 +31,8 @@
     "resize-observer-polyfill": "^1.5.1",
     "scroller-motion": "^1.2.3",
     "sharp": "^0.32.0",
+    "tailwind-merge": "^3.0.1",
+    "tailwindcss-animate": "^1.0.7",
     "touch-cli": "^0.0.1"
   },
   "devDependencies": {

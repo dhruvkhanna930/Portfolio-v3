@@ -2,6 +2,7 @@ import SongCarousel from "./SongCarousel";
 import "../animations/animate.css";
 import AnimatedBody from "../animations/AnimatedBody";
 import AnimatedTitle from "../animations/AnimatedTitle";
+import { IconCloudDemo } from "./Cloud";
 
 const About = () => {
   return (
@@ -50,9 +51,11 @@ const About = () => {
               }
             />
           </div>
-
-          <div className="mb-24 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-40 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-16 lg:max-w-[30%] lg:text-[18px]">
-            <div className="flex flex-col gap-4 md:gap-3">
+            
+          <div className="mb-0 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-00 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-0 lg:max-w-[30%] lg:text-[18px]">
+          <div><IconCloudDemo /></div>
+          
+            <div className="flex flex-col gap-1 md:gap-1 mt-[-2rem]">
               <AnimatedTitle
                 text={"Frontend Tools"}
                 className={
@@ -67,7 +70,7 @@ const About = () => {
                 }
               />
             </div>
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-1">
               <AnimatedTitle
                 text={"UI Libraries"}
                 className={
@@ -82,7 +85,8 @@ const About = () => {
                 }
               />
             </div>
-            <div className="flex flex-col gap-3">
+           
+            {/* <div className="flex flex-col gap-3">
               <AnimatedTitle
                 text={"Design Tools"}
                 className={
@@ -96,7 +100,8 @@ const About = () => {
                   "Figma, Framer, FigJam, Adobe XD, ProtoPie, Adobe Photoshop, UX Research, UI Design, Prototyping."
                 }
               />
-            </div>
+            </div> */}
+
           </div>
         </div>
         <div className="mt-10 flex flex-col md:-mt-0 lg:mt-28">
