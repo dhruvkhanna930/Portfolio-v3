@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from "react";
-import { renderToString } from "react-dom/server";
+import { renderToString } from "react-dom/server.browser";
 
 interface Icon {
   x: number;

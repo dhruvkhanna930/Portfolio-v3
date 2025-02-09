@@ -4,5 +4,6 @@
     "paths": {
       "@/*": ["./app/*"]
     },
+    "types": ["@types/react", "@types/react-dom"],
   }
 }
