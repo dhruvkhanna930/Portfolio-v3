@@ -4,7 +4,13 @@ import { monaSans } from "../fonts/monaSans";
 import { motion } from "framer-motion";
 import { imageAnimation, bodyAnimation } from "../animations/animations";
 import AnimatedWords from "../animations/AnimatedWords";
-import profile from "../../public/profile.webp";
+import profile from "../../public/dhruv.webp";
+import {
+  FaGithub,
+  FaInstagram,
+  FaLinkedinIn,
+} from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 
 const Hero = () => {
   return (
@@ -19,34 +25,34 @@ const Hero = () => {
       <div className="absolute top-10 flex justify-between sm:w-[90%] lg:max-w-[1440px]">
         <div>
           <Link
-            href="https://cal.com/victorwilliams/30min"
+            href="https://drive.google.com/file/d/170VcO2-3xXeTbJFM8-AM9W56jrA4kYaw/view?usp=sharing"
             target="_blank"
-            aria-label="BOOK A CALL"
+            aria-label="RESUME"
           >
             <motion.button
               className="hidden rounded-md border-2 border-[#e4ded7] py-2 px-4 text-[14px] font-semibold text-[#e4ded7] sm:block  md:text-[16px] lg:block"
               variants={bodyAnimation}
             >
-              BOOK A CALL
+              RESUME
             </motion.button>
           </Link>
         </div>
 
         <div className="flex gap-10 text-[#e4ded7] sm:gap-12 md:gap-14 lg:gap-14">
           <Link
-            href="https://github.com/victorcodess"
+            href="https://github.com/dhruvkhanna930/"
             target="_blank"
             aria-label="View GitHub Profile"
           >
             <motion.p
-              className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
+              className="font-bold text-[#e4ded7] "
               variants={bodyAnimation}
             >
-              GH
+              <FaGithub size={30} />
             </motion.p>
           </Link>
           <Link
-            href="https://www.linkedin.com/in/victor-williams-chukwudi/"
+            href="https://www.linkedin.com/in/dhruvkhanna930/"
             target="_blank"
             aria-label="View LinkedIn Profile"
           >
@@ -54,31 +60,31 @@ const Hero = () => {
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              LN
+              <FaLinkedinIn size={30}/>
             </motion.p>
           </Link>
           <Link
-            href="https://twitter.com/victorwill__"
+            href="https://leetcode.com/u/dhruvkhanna930/"
             target="_blank"
-            aria-label="View Twitter Profile"
+            aria-label="View Leetcode Profile"
           >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              TW
+              <SiLeetcode size={30}/>
             </motion.p>
           </Link>
           <Link
-            href="https://contra.com/victorwilliams"
+            href="https://www.instagram.com/dhruvkhanna930/"
             target="_blank"
-            aria-label="View Contra Profile"
+            aria-label="View Instagram Profile"
           >
             <motion.p
               className="text-[16px] font-bold text-[#e4ded7] md:text-[16px]"
               variants={bodyAnimation}
             >
-              CO
+              <FaInstagram size={30}/>
             </motion.p>
           </Link>
         </div>
@@ -89,7 +95,7 @@ const Hero = () => {
           className={`relative flex flex-col items-center justify-center ${monaSans.className}`}
         >
           <AnimatedWords
-            title="VICTOR WILLIAMS"
+            title="DHRUV KHANNA"
             style="inline-block overflow-hidden pt-1 -mr-4 sm:-mr-5 md:-mr-7 lg:-mr-9 -mb-1 sm:-mb-2 md:-mb-3 lg:-mb-4"
           />
           <motion.div
@@ -99,7 +105,7 @@ const Hero = () => {
             <Image
               src={profile}
               priority
-              alt="Victor's headshot"
+              alt="Dhruv's headshot"
               data-blobity-tooltip="Giga Chad"
               data-blobity-invert="false"
               className=" w-[150px] rounded-[16px] grayscale hover:grayscale-0 md:w-[200px] md:rounded-[32px] lg:w-[245px]"
@@ -118,15 +124,16 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="z-50 text-center text-[16px] font-medium text-[#e4ded7] md:text-[20px] lg:text-left">
-            Frontend Engineer and Web Designer, prev at{" "}
-            <Link
+          Python Developer and Digital Innovator, <br />
+          {/* building{" "} */}
+            {/* <Link
               href="https://www.korahq.com/"
               target="_blank"
               className="underline underline-offset-2 hover:no-underline"
-              aria-label="Kora Website"
+              aria-label="Finexos Website"
             >
-              Kora,
-            </Link>{" "}
+              Finexos,
+            </Link>{" "} */}
             currently available for work.
           </p>
         </motion.div>
@@ -136,8 +143,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused on interfaces and experiences, working remotely from Lagos,
-            Nigeria.
+            Focused on digital spaces, working remotely from India.
           </p>
         </motion.div>
       </div>
