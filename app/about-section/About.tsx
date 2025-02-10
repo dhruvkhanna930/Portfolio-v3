@@ -72,7 +72,7 @@ const About = () => {
             </div>
             <div className="flex flex-col gap-1">
               <AnimatedTitle
-                text={"DB & Tools"}
+                text={"Databases & Tools"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
