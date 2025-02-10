@@ -2,6 +2,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import AnimatedBody from "../animations/AnimatedBody";
 
+
 const Footer = () => {
   const year = new Date().getFullYear();
   
@@ -15,16 +16,16 @@ const Footer = () => {
         <AnimatedBody text={`Copyright ${year}`} className={"m-0 p-0"} />
         <div className="flex flex-col sm:flex-row  sm:gap-1 md:gap-2">
           <AnimatedBody
-            text={"Design & Development by"}
+            text={"Made with ❤️ by"}
             className={"m-0 p-0"}
           />
           <Link
-            href="https://github.com/victorcodess"
+            href="https://github.com/dhruvkhanna930/"
             target="_blank"
-            aria-label="Victor's GitHub Profile"
+            aria-label="Dhruv's GitHub Profile"
           >
             <span className="underline underline-offset-2 hover:no-underline">
-              <AnimatedBody text={"Victor Williams"} className={"m-0 p-0"} />
+              <AnimatedBody text={"Dhruv Khanna"} className={"m-0 p-0"} />
             </span>{" "}
           </Link>
         </div>

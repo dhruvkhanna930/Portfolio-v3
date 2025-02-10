@@ -15,7 +15,7 @@ const SongCard = ({ title, artist, image, link }: SongProps) => {
         />
         <div className=" hidden h-[150%] w-full bg-gradient-to-t from-black to-transparent"></div>
 
-        <div className="absolute bottom-3 left-5 hidden">
+        <div className="absolute bottom-3 left-5">
           <p className="text-[14px] text-white">{artist}</p>
           <h4 className="text-[30px] text-white">{title}</h4>
         </div>

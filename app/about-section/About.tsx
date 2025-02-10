@@ -26,23 +26,23 @@ const About = () => {
           <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
             <AnimatedBody
               text={
-                "I specialize in crafting high-converting landing pages and websites for SaaS, Web3 & AI startups. I'm passionate about building software that makes a difference."
+                "I am a Computer Science undergrad at IIIT Gwalior, passionate about software development, data analytics, and automation. With a strong foundation in Python and backend systems."
               }
             />
             <AnimatedBody
               text={
-                "Whether I’m designing a sleek user interface or coding a complex application, I’m always striving to create something unique and innovative. I love experimenting with new technologies and staying up-to-date with the latest trends in the tech world."
+                "Whether I'm designing a sleek user interface or coding a complex application, I’m always striving to create something unique and innovative. I love experimenting with new technologies and staying up-to-date with the latest trends in the tech world."
               }
               className={"hidden"}
             />
             <AnimatedBody
               text={
-                "Beyond my work as a frontend developer, I'm an active leader in tech communities on campus. As a member of the Google Developer Student Clubs and Microsoft Learn Student Ambassadors, I've led workshops and mentored other students."
+                "Beyond my work as a software developer, I have tutored 500+ students in my active tech community, CodeDesk, empowering early developers through mentorship and hands-on learning. I had also been a member of IAENG and the Internet Society."
               }
             />
             <AnimatedBody
               text={
-                "When I'm not coding, you can find me binge-watching anime, hanging out with friends, cheering on Manchester United, or discovering new music in my favorite genres like RnB, UK Drill, and Chill Rap."
+                "When I'm not coding, you can find me hanging out with friends or exploring new music, enjoying smooth RnB melodies and catchy pop tunes."
               }
             />
             <AnimatedBody
@@ -53,11 +53,11 @@ const About = () => {
           </div>
             
           <div className="mb-0 flex w-[100%] flex-col gap-4 text-[18px] font-normal leading-relaxed tracking-wide text-[#e4ded7]/80 sm:mb-32 md:mb-00 md:gap-6 md:text-[16px] md:leading-normal lg:mt-0 lg:mb-0 lg:max-w-[30%] lg:text-[18px]">
-          <div><IconCloudDemo /></div>
+          <div className="mt-[-20px]"><IconCloudDemo /></div>
           
             <div className="flex flex-col gap-1 md:gap-1 mt-[-2rem]">
               <AnimatedTitle
-                text={"Frontend Tools"}
+                text={"Languages & Frameworks"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -66,13 +66,13 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "JavaScript (ES6+), React, Next.js, TypeScript, Prismic CMS, Redux, Redux Toolkit, React Testing Library, Vitetest, HTML5, Git/GitHub, NextAuth, Formik."
+                  "Python, C/C++, Swift, Java, React, Next.js, TypeScript, GSAP, HTML5, Django, FastAPI, DRF, Pyttsx3"
                 }
               />
             </div>
             <div className="flex flex-col gap-1">
               <AnimatedTitle
-                text={"UI Libraries"}
+                text={"DB & Tools"}
                 className={
                   "text-[24px] text-[#e4ded7] md:text-[30px] lg:text-[20px]"
                 }
@@ -81,7 +81,7 @@ const About = () => {
               />
               <AnimatedBody
                 text={
-                  "CSS3/SCSS/SASS, Tailwind CSS, Material UI, Framer Motion, GSAP, Bootstrap, Chart.js."
+                  "PostgreSQL, Redis, SQL, Realm, Selenium, Docker, Nginix, Kafka, BS4, Scrapy, Requests, Insomnia, Postman, GitLab."
                 }
               />
             </div>
@@ -104,7 +104,8 @@ const About = () => {
 
           </div>
         </div>
-        <div className="mt-10 flex flex-col md:-mt-0 lg:mt-28">
+        <div className="mt-20 flex flex-col md:-mt-6 lg:mt-28">
+          {/* <div className="mb-6 w-full h-4"></div> */}
           <SongCarousel />
           <AnimatedBody
             text="A few songs I can recommend if you're looking for some fresh tunes :)"

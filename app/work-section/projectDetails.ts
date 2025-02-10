@@ -17,7 +17,7 @@ export const devProjects = [
       "Portfolio website for Michael Odunsi, an experienced UI/UX designer crafting unique, user-friendly products and web experiences for Web3 founders and projects.",
     technologies: ["React", "Tailwind CSS", "Framer Motion"],
     github: "https://github.com/victorcodess/odunsi-web3-folio",
-    demo: "https://www.odunsi.xyz/",
+    demo: "",
     image: require(".//../../public/projects/odunsi.png"),
     available: true,
   },
