@@ -44,25 +44,14 @@ export const metadata: Metadata = {
     // siteName: "www.victorwilliams.me",
     images: [
       {
-        url: "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
+        url: "https://ibb.co/wNts4n1p",
         width: 1200,
         height: 630,
-        alt: "Victor Williams — Frontend Engineer",
+        alt: "Dhruv Khanna — Software Engineer",
       },
     ],
     locale: "en-US",
     type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Victor Williams — Frontend Engineer",
-    description:
-      "Frontend Engineer and Web Designer, currently at Kora. Focused on interfaces and experiences, working remotely from Lagos, Nigeria.",
-    creator: "victorwill__",
-    creatorId: "1243720976552144897",
-    images: [
-      "https://user-images.githubusercontent.com/84178696/228620835-e3cc5c9b-72fc-4f54-a628-407ef7b650f5.png",
-    ],
   },
   robots: {
     index: true,
