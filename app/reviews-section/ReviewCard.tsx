@@ -50,13 +50,13 @@ const BlogCard = ({
       </p>
 
       <div className="flex gap-3 sm:absolute sm:top-[28px] sm:left-[28px] justify-center ">
-        <Image
+        {profileImg && <Image
           src={profileImg}
           alt={"title"}
           width={1600}
           height={840}
           className="h-[41px] w-[41px] rounded-full bg-contain bg-center object-cover"
-        />
+        />}
         <div className="flex flex-col gap-1 pr-7">
           <h3 className="w-[176px] text-[18px] font-bold uppercase leading-[20.7px] tracking-[-0.46056px] text-[#e4ded7]">
             {name}
