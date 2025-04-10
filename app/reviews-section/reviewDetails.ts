@@ -18,7 +18,7 @@ export const reviewDetails = [
     name: "New Stance",
     role: "Python Developer Intern",
     company: "Feb 2024 - Mar 2024",
-    profileImg: ,
+    profileImg: '',
     testimonial:
       "Developed an automated influencer analytics dashboard with Django and PostgreSQL for 5K+ users, optimized operations with Selenium, and built RESTful APIs for the NS influencer portal.",
   },
