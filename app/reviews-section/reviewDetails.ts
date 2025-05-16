@@ -32,14 +32,14 @@ export const reviewDetails = [
     testimonial:
       "Led development of Finexos website using Django and React, automated workflows with Python, managing a 4 member agile team, and deployed Finexos School software in 10+ schools.",
   },
-  {
-    name: "Tree Of Wally",
-    role: "Junior Developer",
-    company: "Jan 2025 - Feb 2025",
-    profileImg: tow,
-    testimonial:
-      "Contributed to the development of bidding APIs for the Creator Stock Exchange product using Golang, worked with Neo4j and MongoDB for data handling.",
-  },
+  // {
+  //   name: "Tree Of Wally",
+  //   role: "Junior Developer",
+  //   company: "Jan 2025 - Feb 2025",
+  //   profileImg: tow,
+  //   testimonial:
+  //     "Contributed to the development of bidding APIs for the Creator Stock Exchange product using Golang, worked with Neo4j and MongoDB for data handling.",
+  // },
   {
     name: "Morgan Stanley",
     role: "Technology Summer Analyst Intern",
