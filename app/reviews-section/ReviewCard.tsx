@@ -45,7 +45,7 @@ const BlogCard = ({
         className="absolute right-10 w-[51px] bottom-10"
       />
 
-      <p className="mt-20 text-[18px] font-[500] leading-relaxed tracking-wide text-[#e4ded7]">
+      <p className="mt-20 text-[18px] font-[500] leading-relaxed tracking-wide text-[#e4ded7] pt-2">
         {testimonial}
       </p>
 

@@ -46,7 +46,7 @@ export const reviewDetails = [
     company: "May 2025 - July 2025",
     profileImg: ms,
     testimonial:
-      "",
+      "Excited to build scalable solutions, learn from industry leaders, and contribute to impactful financial tech projects.",
   },
   // {
   //   name: "Umar Abdullahi",
