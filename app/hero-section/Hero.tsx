@@ -134,7 +134,7 @@ const Hero = () => {
             >
               Finexos,
             </Link>{" "} */}
-            currently available for work.
+            {/* currently available for work. */}
           </p>
         </motion.div>
 
@@ -143,7 +143,7 @@ const Hero = () => {
           variants={bodyAnimation}
         >
           <p className="text-right text-[16px] font-semibold text-[#e4ded7] md:text-[20px]">
-            Focused in digital spaces, working remotely from India.
+            Focused in digital spaces, working from India.
           </p>
         </motion.div>
       </div>
